@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "target": "ES2022",
+    "lib": ["DOM", "ES2022", "ES2023", "ESNext"],
+    "types": ["node", "jest"],
+    "outDir": "./dist",
+    "pretty": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["test", "src"]
+}
